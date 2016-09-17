@@ -23,9 +23,9 @@ Install Python pip
 
   sudo apt-get install python-pip
 
-**************
-Install Sphinx
-**************
+*******************
+Sphinx Installation
+*******************
 
 Install Sphinx for generation of HTML (and other formats) documentation from
 reStructuredText:

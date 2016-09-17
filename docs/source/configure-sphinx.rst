@@ -15,6 +15,10 @@ called docs:
   mkdir docs
   cd docs
 
+*****************
+sphinx-quickstart
+*****************
+
 Run the sphinx-quickstart script in the docs folder of the project to do the
 one-time set-up for the project:
 
@@ -82,5 +86,64 @@ format the files are in. Your choice:
   or ".rst".  Only files with this suffix are considered documents.
   > Source file suffix [.rst]:
 
+Accept the default for epub:
 
-UNDER CONSTRUCTION
+.. code-block:: text
+
+  Sphinx can also add configuration for epub output:
+  > Do you want to use the epub builder (y/n) [n]:
+
+Choose to enable autodoc if you have Python code to auto-document:
+
+.. code-block:: text
+
+  Please indicate if you want to use one of the following Sphinx extensions:
+  > autodoc: automatically insert docstrings from modules (y/n) [n]: y
+
+Accept defaults, apart from Windows (unless you need it):
+
+.. code-block:: text
+
+  > doctest: automatically test code snippets in doctest blocks (y/n) [n]:
+  > intersphinx: link between Sphinx documentation of different projects (y/n) [n]:
+  > todo: write "todo" entries that can be shown or hidden on build (y/n) [n]:
+  > coverage: checks for documentation coverage (y/n) [n]:
+  > imgmath: include math, rendered as PNG or SVG images (y/n) [n]:
+  > mathjax: include math, rendered in the browser by MathJax (y/n) [n]:
+  > ifconfig: conditional inclusion of content based on config values (y/n) [n]:
+  > viewcode: include links to the source code of documented Python objects (y/n) [n]:
+  > githubpages: create .nojekyll file to publish the document on GitHub pages (y/n) [n]:
+
+  A Makefile and a Windows command file can be generated for you so that you
+  only have to run e.g. `make html' instead of invoking sphinx-build
+  directly.
+  > Create Makefile? (y/n) [y]:
+  > Create Windows command file? (y/n) [y]: n
+
+Output:
+
+  Creating file ./source/conf.py.
+  Creating file ./source/index.rst.
+  Creating file ./Makefile.
+
+  Finished: An initial directory structure has been created.
+
+  You should now populate your master file ./source/index.rst and create
+  other documentation source files. Use the Makefile to build the docs,
+  like so:
+  make builder
+  where "builder" is one of the supported builders, e.g. html, latex or
+  linkcheck.
+
+The initial configuration of Sphinx is now complete, keep reading as there are
+more tasks that still need to be done.
+
+*************
+Look and Feel
+*************
+
+Themes
+------
+
+Sidebar
+-------
