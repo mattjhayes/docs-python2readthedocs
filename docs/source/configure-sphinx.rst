@@ -19,8 +19,8 @@ called docs:
 sphinx-quickstart
 *****************
 
-Run the sphinx-quickstart script in the docs folder of the project to do the
-one-time set-up for the project:
+The sphinx-quickstart script does a one-time set-up for the project. If you
+haven't already configured Sphinx for the project then run it with:
 
 .. code-block:: text
 

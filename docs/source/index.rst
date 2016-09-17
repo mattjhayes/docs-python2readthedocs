@@ -13,6 +13,8 @@ Contents:
 
    install-sphinx
    configure-sphinx
+   localbuild
+   readthedocs
 
 Indices and tables
 ==================
