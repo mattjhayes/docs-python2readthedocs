@@ -1,0 +1,36 @@
+##############
+Install Sphinx
+##############
+
+This guide is for installing Sphinx on Ubuntu.
+
+********
+Pre-Work
+********
+
+Ensure packages are up-to-date
+==============================
+
+.. code-block:: text
+
+  sudo apt-get update
+  sudo apt-get upgrade
+
+Install Python pip
+==================
+
+.. code-block:: text
+
+  sudo apt-get install python-pip
+
+**************
+Install Sphinx
+**************
+
+Install Sphinx for generation of HTML (and other formats) documentation from
+reStructuredText:
+
+.. code-block:: text
+
+  sudo pip install Sphinx
+
