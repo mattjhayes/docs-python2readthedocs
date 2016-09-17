@@ -22,4 +22,28 @@ one-time set-up for the project:
 
   sphinx-quickstart
 
+Accept the default for root path:
+
+.. code-block:: text
+
+  Enter the root path for documentation.
+  > Root path for the documentation [.]:
+
+Override the default to have separate source and build directories:
+
+.. code-block:: text
+
+  You have two options for placing the build directory for Sphinx output.
+  Either, you use a directory "_build" within the root path, or you separate
+  "source" and "build" directories within the root path.
+  > Separate source and build directories (y/n) [n]: y
+
+Accept the default for name prefix:
+
+.. code-block:: text
+
+  > Name prefix for templates and static dir [_]:
+
+
+
 UNDER CONSTRUCTION
