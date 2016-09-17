@@ -57,7 +57,7 @@ author = u'Matthew John Hayes'
 # built documents.
 #
 # The short X.Y version.
-version = u'0.1.0'
+version = u'0.1'
 # The full version, including alpha/beta/rc tags.
 release = u'0.1.0'
 
@@ -119,7 +119,7 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'default'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
