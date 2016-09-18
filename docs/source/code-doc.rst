@@ -47,20 +47,18 @@ the documentation from particular Python modules in your project. Example:
 See `<http://nmeta.readthedocs.io/en/latest/nmeta.html>`_ for an example of
 the html that this generates.
 
-There is a script that you can run to
+There is a script that you can run to create a directive file per Python
+module. You should only run this command once to set up the *.rst files.
 
 In the docs directory, run this command to create rst files that document
-your python modules:
+your python modules (Note that the -f option tells it to overwrite existing
+files):
 
 .. code-block:: text
 
   sphinx-apidoc -f -o source/ ../<PROJECT_NAME>/
 
 You should see rst files created in the docs/source/ folder
-Note that the -f option tells it to overwrite existing files.
-You should only run this command once to set up the *.rst files.
-
-
 
 
 ********************************************
