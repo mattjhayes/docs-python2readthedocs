@@ -3,18 +3,27 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to docs-python2readthedocs's documentation!
-===================================================
+Python to ReadtheDocs Guide
+===========================
+
+A beginners guide to integrating a Python project with Read the Docs
+to create great hassle-free documentation.
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
+   introduction
    install-sphinx
    configure-sphinx
+   code-doc
+   create-content
    localbuild
+   ui-tweaks
    readthedocs
+   modules
+   acknowledgements
 
 Indices and tables
 ==================
@@ -22,5 +31,4 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
 
