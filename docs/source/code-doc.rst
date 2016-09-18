@@ -3,7 +3,7 @@ Autodoc Your Code
 #################
 
 The Sphinx autodoc extension (see:
-`<http://www.sphinx-doc.org/en/stable/ext/autodoc.html>'_) converts docstrings
+`<http://www.sphinx-doc.org/en/stable/ext/autodoc.html>'_ ) converts docstrings
 from your code into the final documentation format at Sphinx build-time.
 
 This is very useful, but may not work out of the box.
@@ -38,11 +38,15 @@ the documentation from particular Python modules in your project. Example:
 
 .. code-block:: text
 
-  .. automodule:: nmeta
-    :members:
-    :undoc-members:
-    :private-members:
-    :show-inheritance:
+  example_module module
+  =====================
+
+  .. automodule:: example_module
+      :members:
+      :undoc-members:
+      :show-inheritance:
+
+(`Source <https://raw.githubusercontent.com/mattjhayes/docs-python2readthedocs/master/docs/source/example_module.rst>`_ )
 
 See `<example_module.html>`_ for an example of
 the html that this generates.
@@ -60,5 +64,12 @@ files):
 
 You should see rst files created in the docs/source/ folder
 
+*********************
+Documenting Your Code
+*********************
 
+While it is possible to use reStructuredText in the docstrings of your
+Python code, the author prefers to stay with plain text. Plain text
+docstrings still produce great HTML pages with autodoc.
+Ultimately, it is your choice.
 

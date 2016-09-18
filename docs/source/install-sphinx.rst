@@ -2,6 +2,9 @@
 Install Sphinx
 ##############
 
+Sphinx is a tool for generation of HTML (and other formats) documentation from
+reStructuredText
+
 This guide is for installing Sphinx on Ubuntu.
 
 ********
@@ -27,8 +30,7 @@ Install Python pip
 Sphinx Installation
 *******************
 
-Install Sphinx for generation of HTML (and other formats) documentation from
-reStructuredText:
+Install Sphinx:
 
 .. code-block:: text
 
