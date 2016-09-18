@@ -62,7 +62,7 @@ You should see rst files created in the docs/source/ folder
 
 
 ********************************************
-Autodoc Fix for External Module Dependancies
+Autodoc Fix for External Module Dependencies
 ********************************************
 
 Read the Docs runs Sphinx autodoc against your code in its environment.
@@ -88,12 +88,13 @@ and further down this output:
 Right. It's failing because colouredlogs module isn't installed in Read the
 Docs.
 
-There are a couple of ways to fix this if it is a problem.
+There are a couple of ways to fix this if it is a problem. The first one is
+preferable:
 
 Fixing Missing Imports with virtualenv
 ======================================
 
-In this fix, we tell ReadtheDocs to install module dependancies via pip in a
+In this fix, we tell ReadtheDocs to install module dependencies via pip in a
 virtual environment, and then run Sphinx autodoc.
 
 Enable virtualenv in Read the Docs

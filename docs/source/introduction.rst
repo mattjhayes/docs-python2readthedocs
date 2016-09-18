@@ -16,14 +16,16 @@ file structure:
   branch on ReadtheDocs still shows the previous documentation.
 
 - You don't have to worry about hosting a website for the documentation,
-  including all the hastles of making it searchable etc.
+  including all the hassles of making it searchable etc.
 
 - Docstrings from your Python code are automatically
   converted into nice looking documentation pages in ReadtheDocs.
 
-This guide is generated using the principles outlined here. It is a
-project on GitHub (`<https://github.com/mattjhayes/docs-python2readthedocs>`_)
-and has a webhook for auto-rebuild of Read the Docs pages on project commits.
+This guide is built entirely from a Python project on GitHub, using the
+techniques outlined here. The project on GitHub
+(`<https://github.com/mattjhayes/docs-python2readthedocs>`_) can be used
+as an example of the configuration. It uses a webhook for
+auto-rebuild of Read the Docs pages on project commits.
 
-The project on which the guide is built also has some simple Python programs
-to demonstrate the autodoc functionality.
+A couple of simple Python programs
+to demonstrate the autodoc functionality are included in the project.
