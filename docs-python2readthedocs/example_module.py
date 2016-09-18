@@ -23,13 +23,6 @@ Python documentation from doc strings like this...
 Written by Matthew John Hayes
 """
 
-#*** Logging Imports:
-#import logging
-
-#*** JSON imports:
-#import json
-#from json import JSONEncoder
-
 CONSTANT = 'example constant value'
 
 class ExampleModule(object):

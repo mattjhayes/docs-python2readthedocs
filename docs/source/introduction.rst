@@ -21,3 +21,9 @@ file structure:
 - Docstrings from your Python code are automatically
   converted into nice looking documentation pages in ReadtheDocs.
 
+This guide is generated using the principles outlined here. It is a
+project on GitHub (`<https://github.com/mattjhayes/docs-python2readthedocs>`_)
+and has a webhook for auto-rebuild of Read the Docs pages on project commits.
+
+The project on which the guide is built also has some simple Python programs
+to demonstrate the autodoc functionality.
