@@ -13,6 +13,8 @@ Contents:
 
    install-sphinx
    configure-sphinx
+   localbuild
+   readthedocs
 
 Indices and tables
 ==================
@@ -20,4 +22,5 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
 
