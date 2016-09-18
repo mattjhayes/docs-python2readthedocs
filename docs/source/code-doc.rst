@@ -11,14 +11,15 @@ This is very useful, but may not work out of the box.
 **********************************
 Tell autodoc how to Find your Code
 **********************************
-Edit the docs/source/conf.py file. Uncomment:
+Autodoc probably can't find your code without a little help. Edit the
+docs/source/conf.py file. Uncomment:
 
 .. code-block:: python
 
   import os
   import sys
 
-Uncomment and edit this line:
+Uncomment and edit this line (adjust path as appropriate):
 
 .. code-block:: python
 
@@ -47,6 +48,18 @@ See `<http://nmeta.readthedocs.io/en/latest/nmeta.html>`_ for an example of
 the html that this generates.
 
 There is a script that you can run to
+
+In the docs directory, run this command to create rst files that document
+your python modules:
+
+.. code-block:: text
+
+  sphinx-apidoc -f -o source/ ../<PROJECT_NAME>/
+
+You should see rst files created in the docs/source/ folder
+Note that the -f option tells it to overwrite existing files.
+You should only run this command once to set up the *.rst files.
+
 
 
 

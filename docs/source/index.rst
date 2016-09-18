@@ -22,5 +22,13 @@ Contents:
    localbuild
    ui-tweaks
    readthedocs
+   modules
+   acknowledgements
 
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
 
