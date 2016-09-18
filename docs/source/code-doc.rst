@@ -6,6 +6,35 @@ The Sphinx autodoc extension (see:
 `<http://www.sphinx-doc.org/en/stable/ext/autodoc.html>'_) converts docstrings
 from your code into the final documentation format at Sphinx build-time.
 
+This is very useful, but may not work out of the box.
+
+**********************************
+Tell autodoc how to Find your Code
+**********************************
+Edit the docs/source/conf.py file. Uncomment:
+
+.. code-block:: python
+
+  import os
+  import sys
+
+Uncomment and edit this line:
+
+.. code-block:: python
+
+  sys.path.insert(0, os.path.abspath('../../<PROJECT_NAME>'))
+
+********************************
+reStructuredText file directives
+********************************
+
+The reStructuredText files in your docs/source directory do not contain
+the docstrings. Instead they just contain directives on how to build the
+resulting page.
+
+You need reStructuredText files with directives to build
+the documentation from particular Python modules in your project. Example:
+
 .. code-block:: text
 
   .. automodule:: nmeta
@@ -14,11 +43,12 @@ from your code into the final documentation format at Sphinx build-time.
     :private-members:
     :show-inheritance:
 
-The reStructuredText files in your docs/source directory do not contain
-the docstrings. Instead they just contain directives on how to build the
-resulting page.
+See `<http://nmeta.readthedocs.io/en/latest/nmeta.html>`_ for an example of
+the html that this generates.
 
-This is very useful, but may not work out of the box.
+There is a script that you can run to
+
+
 
 ********************************************
 Autodoc Fix for External Module Dependancies
@@ -48,6 +78,9 @@ Fill in the 'Requirements file:' box with requirements.txt
 
 Click 'Submit'
 
+Create a requirements.txt file
+------------------------------
+
 Create requirements.txt file in root of project. Here is an example
 requirements.txt file to install the dpkt library:
 
@@ -59,13 +92,14 @@ requirements.txt file to install the dpkt library:
 Replace dpkt with the name(s) of the programs to install with pip.
 
 Fixing Missing Imports with Mock
---------------------------------
+================================
 
-Code can be added to docs/source/conf.py to mock troublesome imports so that
-Read the Docs Sphinx doesn't error trying to load them.
+If the virtualenv solution isn't fully working from you then consider using
+mock. Code can be added to docs/source/conf.py to mock troublesome imports
+so that Read the Docs Sphinx doesn't error trying to load them.
 
 Sub-modules must be listed after their parent module and there must be full
-listing from the top level module, i.e.:
+listing from the top level module. Example that mocks ryu.base.app_manager:
 
 .. code-block:: python
 
