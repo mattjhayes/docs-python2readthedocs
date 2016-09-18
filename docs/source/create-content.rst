@@ -8,9 +8,9 @@ addition to the auto-generated module documentation.
 Here are some basic pointers on how to create documentation pages in
 reStructuredText.
 
-***********
-Conventions
-***********
+****************************
+reStructuredText Conventions
+****************************
 
 Line length
 ===========
@@ -84,6 +84,31 @@ Example:
 
   Heading Level 6
   """""""""""""""
+
+Code Blocks
+===========
+
+Use the code-block directive to display code as it appears, including
+syntax highlighting if desired.
+
+Command Line
+------------
+
+(note 2 space indent for the code):
+.. code-block:: text
+
+  .. code-block:: text
+
+    code here...
+
+Use this directive for Python (note 2 space indent for the code):
+
+.. code-block:: text
+
+  .. code-block:: python
+
+    code here...
+
 
 UNDER CONSTRUCTION
 

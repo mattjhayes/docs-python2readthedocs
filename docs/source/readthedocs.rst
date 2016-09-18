@@ -2,8 +2,33 @@
 Read the Docs Integration
 #########################
 
-TBD
+**************************
+Integrate with ReadtheDocs
+**************************
 
+Sign up with Read the Docs
+==========================
+
+Sign up for a Read the Docs account at:
+
+`<https://readthedocs.org/`_
+
+Set up Webhook on GitHub
+========================
+
+Go into the admin page for the project on GitHub.
+
+Go to the “Settings” page for your project
+  Click “Webhooks & Services”
+  In the “Services” section, click “Add service”
+  In the list of available services, click “ReadTheDocs”
+  Check “Active”
+  Click “Add service”
+
+Import Project in Read the Docs
+===============================
+
+Log into Read the Docs and click 'Import a Project'. Follow your nose.
 
 ********************************************
 Autodoc Fix for External Module Dependencies
