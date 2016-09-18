@@ -138,32 +138,4 @@ Output:
 The initial configuration of Sphinx is now complete, keep reading as there are
 more tasks that still need to be done.
 
-*************
-Look and Feel
-*************
-
-Themes
-------
-
-TBD
-
-Sidebar
--------
-The local site sidebar is a bit limited, however works
-fine in Read the Docs. If you want a better sidebar for the local build then
-try this update. Edit the docs/source/conf.py file. Find this stanza:
-
-.. code-block:: text
-
-  # Custom sidebar templates, maps document names to template names.
-  #
-  # html_sidebars = {}
-
-Replace the last line of this stanza so it reads:
-
-.. code-block:: text
-
-  # Custom sidebar templates, maps document names to template names.
-  #
-  html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'], }
 

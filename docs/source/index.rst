@@ -11,8 +11,10 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   introduction
    install-sphinx
    configure-sphinx
+   ui-tweaks
    localbuild
    readthedocs
 
