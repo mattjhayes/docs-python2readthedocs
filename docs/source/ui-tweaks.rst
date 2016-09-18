@@ -3,7 +3,7 @@ UI Tweaks
 #########
 
 Here are some minor changes that you may want to consider to change
-the user interface (UI) look and feel:
+the User Interface (UI) look and feel:
 
 Themes
 ------

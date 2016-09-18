@@ -17,8 +17,9 @@ Contents:
    introduction
    install-sphinx
    configure-sphinx
-   ui-tweaks
+   create-content
    localbuild
+   ui-tweaks
    readthedocs
 
 
