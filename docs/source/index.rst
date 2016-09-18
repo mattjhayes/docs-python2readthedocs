@@ -9,6 +9,8 @@ Python to ReadtheDocs Guide
 A beginners guide to integrating a Python project with Read the Docs
 to create great hassle-free documentation.
 
+`Read More <introduction.html>`_
+
 Contents:
 
 .. toctree::
