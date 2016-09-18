@@ -27,6 +27,7 @@ Change it to:
   html_theme = 'default'
 
 Other Sphinx built-in themes include:
+
 - classic
 - sphinxdoc
 - scrolls
