@@ -94,7 +94,9 @@ syntax highlighting if desired.
 Command Line
 ------------
 
+Use this directive for text such as command line input and output
 (note 2 space indent for the code):
+
 .. code-block:: text
 
   .. code-block:: text
@@ -109,6 +111,37 @@ Use this directive for Python (note 2 space indent for the code):
 
     code here...
 
+Hyperlinks
+==========
 
-UNDER CONSTRUCTION
+Simple link
+-----------
+
+(note the backticks, angle brackets and trailing underscore)
+
+.. code-block:: text
+
+  `<http://www.python.org/>`_
+
+Link with name
+--------------
+
+.. code-block:: text
+
+  `Python <http://www.python.org/>`_
+
+Link to local page
+------------------
+
+.. code-block:: text
+
+  `Local Page <local_page.html>`_
+
+Images
+======
+
+.. code-block:: text
+
+  .. image:: images/build1.png
+
 
