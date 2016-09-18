@@ -3,8 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to docs-python2readthedocs's documentation!
-===================================================
+Python to ReadtheDocs Guide
+===========================
+
+A beginners guide to integrating a Python project with Read the Docs
+to create great hastle-free documentation.
 
 Contents:
 
@@ -17,12 +20,5 @@ Contents:
    ui-tweaks
    localbuild
    readthedocs
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
 

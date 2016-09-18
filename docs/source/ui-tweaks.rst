@@ -8,6 +8,9 @@ the user interface (UI) look and feel:
 Themes
 ------
 
+Themes are used by Sphinx to control how the documentation looks when
+exported to the final formats.
+
 I prefer the Read the Docs theme over the Alabaster theme, which Sphinx
 installation has configured, so I update it in docs/source/conf.py.
 

@@ -121,6 +121,7 @@ Accept defaults, apart from Windows (unless you need it):
   > Create Windows command file? (y/n) [y]: n
 
 Output:
+.. code-block:: text
 
   Creating file ./source/conf.py.
   Creating file ./source/index.rst.
@@ -134,6 +135,17 @@ Output:
   make builder
   where "builder" is one of the supported builders, e.g. html, latex or
   linkcheck.
+
+A directory structure like this will have been created:
+
++-- docs
+¦   +-- build
+¦   +-- Makefile
+¦   +-- source
+¦       +-- conf.py
+¦       +-- index.rst
+¦       +-- _static
+¦       +-- _templates
 
 The initial configuration of Sphinx is now complete, keep reading as there are
 more tasks that still need to be done.
