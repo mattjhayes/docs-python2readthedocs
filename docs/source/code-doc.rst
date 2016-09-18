@@ -31,12 +31,22 @@ ReadtheDocs, due to imported modules not being present.
 There are a couple of ways to fix this if it is a problem.
 
 Fixing Missing Imports with virtualenv
---------------------------------------
+======================================
 
 In this fix, we tell ReadtheDocs to install module dependancies via pip in a
 virtual environment, and then run Sphinx autodoc.
 
-Enable virtualenv in RTD TBD
+Enable virtualenv in Read the Docs
+----------------------------------
+
+Log into Read the Docs and go into Settings -> Profile -> <PROJECT_NAME>
+
+Go into Admin -> Advanced Settings and tick the
+'Install your project inside a virtualenv using setup.py install' box
+
+Fill in the 'Requirements file:' box with requirements.txt
+
+Click 'Submit'
 
 Create requirements.txt file in root of project. Here is an example
 requirements.txt file to install the dpkt library:

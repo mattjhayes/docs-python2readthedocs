@@ -17,6 +17,7 @@ Contents:
    introduction
    install-sphinx
    configure-sphinx
+   code-doc
    create-content
    localbuild
    ui-tweaks
