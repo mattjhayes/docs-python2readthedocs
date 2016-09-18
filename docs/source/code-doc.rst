@@ -69,6 +69,25 @@ Read the Docs runs Sphinx autodoc against your code in its environment.
 So, while autodoc may run fine in your own environment, it may fail in
 ReadtheDocs, due to imported modules not being present.
 
+Example of Import Problem
+=========================
+
+In Read the Docs, we can see example_module, but not example_module2
+
+We check the build and it passed. What is the problem?
+
+Clicking in Read the Docs admin interface on the 4th line of the build,
+we see:
+
+.. image:: images/build1.png
+
+and further down this output:
+
+.. image:: images/build2.png
+
+Right. It's failing because colouredlogs module isn't installed in Read the
+Docs.
+
 There are a couple of ways to fix this if it is a problem.
 
 Fixing Missing Imports with virtualenv
@@ -93,14 +112,14 @@ Create a requirements.txt file
 ------------------------------
 
 Create requirements.txt file in root of project. Here is an example
-requirements.txt file to install the dpkt library:
+requirements.txt file to install the coloredlogs library:
 
 .. code-block:: text
 
-  #*** Install dpkt with pip:
-  dpkt
+  # Install coloredlogs:
+  coloredlogs
 
-Replace dpkt with the name(s) of the programs to install with pip.
+Replace coloredlogs with the name(s) of the programs to install with pip.
 
 Fixing Missing Imports with Mock
 ================================
