@@ -5,12 +5,25 @@ Create Content
 You can, and should, create some documentation about your project in
 addition to the auto-generated module documentation.
 
-Here are some basic pointers on how to create documentation pages in
-reStructuredText.
+******************
+Updating the Index
+******************
+
+The file docs/source/index.rst is the landing page for your projects
+documentation.
+
+Initially it will look like this:
+
+TBD
+
+
 
 ****************************
 reStructuredText Conventions
 ****************************
+
+Here are some basic pointers on how to create documentation pages in
+reStructuredText.
 
 Line length
 ===========
