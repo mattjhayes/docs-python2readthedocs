@@ -51,13 +51,13 @@ the documentation from a particular Python module in your project. Example:
 Example from this project, showing source RST and Python with resulting HTML:
 
   reStructuredText:
-  `example_module.rst <https://raw.githubusercontent.com/mattjhayes/docs-python2readthedocs/master/docs/source/example_module.rst>`_
+    `example_module.rst <https://raw.githubusercontent.com/mattjhayes/docs-python2readthedocs/master/docs/source/example_module.rst>`_
 
   Python:
-  `example_module.py <https://github.com/mattjhayes/docs-python2readthedocs/blob/master/docs-python2readthedocs/example_module.py>`_
+    `example_module.py <https://github.com/mattjhayes/docs-python2readthedocs/blob/master/docs-python2readthedocs/example_module.py>`_
 
   Auto-generated HTML:
-  `example_module.html <example_module.html>`_
+    `example_module.html <example_module.html>`_
 
 Here are some additional directives that you may wish to add include:
 
@@ -74,13 +74,16 @@ Here are some additional directives that you may wish to add include:
 
    :special-members:
 
-Example from this project of using these extra directives:
+Example using these extra directives:
 
-  `example_module2.rst <https://raw.githubusercontent.com/mattjhayes/docs-python2readthedocs/master/docs/source/example_module2.rst>`_
+  reStructuredText:
+    `example_module2.rst <https://raw.githubusercontent.com/mattjhayes/docs-python2readthedocs/master/docs/source/example_module2.rst>`_
 
-  `example_module2.py <https://github.com/mattjhayes/docs-python2readthedocs/blob/master/docs-python2readthedocs/example_module2.py>`_
+  Python:
+    `example_module2.py <https://github.com/mattjhayes/docs-python2readthedocs/blob/master/docs-python2readthedocs/example_module2.py>`_
 
-  `example_module2.html <example_module2.html>`_
+  Auto-generated HTML:
+    `example_module2.html <example_module2.html>`_
 
 *****************************
 One-Off Creation of RST Files
