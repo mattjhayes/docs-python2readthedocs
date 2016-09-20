@@ -68,6 +68,13 @@ class ExampleModule2(object):
         """
         self.class_variable += value
 
+    def _private_method(self):
+        """
+        Example private method that won't be documented by autodoc
+        unless you add :private-members: to the automodule directive
+        """
+        self.class_variable += 1
+
 if __name__ == '__main__':
     #*** Instantiate the ExampleModule2 class:
     example_module2 = ExampleModule2()

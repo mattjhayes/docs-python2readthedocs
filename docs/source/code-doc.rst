@@ -5,9 +5,10 @@ Autodoc Your Code
 The Sphinx autodoc extension
 (see `<http://www.sphinx-doc.org/en/stable/ext/autodoc.html>`_ )
 converts docstrings
-from your code into the final documentation format at Sphinx build-time.
+from your Python code into the final documentation format at Sphinx build-time.
 
-This is very useful, but may not work out of the box.
+This is very useful, but may not work out of the box. Here are some steps
+to set it up properly:
 
 **********************************
 Tell autodoc how to Find your Code
@@ -26,16 +27,16 @@ Uncomment and edit this line (adjust path as appropriate):
 
   sys.path.insert(0, os.path.abspath('../../<PROJECT_NAME>'))
 
-********************************
-reStructuredText file directives
-********************************
+******************
+autodoc directives
+******************
 
-The reStructuredText files in your docs/source directory do not contain
-the docstrings. Instead they just contain directives on how to build the
-resulting page.
+The reStructuredText files for your Python modules in docs/source do not
+contain the docstrings. Instead they just contain directives on how to build
+the corresponding page.
 
-You need reStructuredText files with directives to build
-the documentation from particular Python modules in your project. Example:
+They contain reStructuredText with directives to build
+the documentation from a particular Python module in your project. Example:
 
 .. code-block:: text
 
@@ -47,13 +48,46 @@ the documentation from particular Python modules in your project. Example:
       :undoc-members:
       :show-inheritance:
 
-Example from this project (reStructuredText, Python and auto-generated HTML):
+Example from this project, showing source RST and Python with resulting HTML:
 
-  `example_module.rst <https://raw.githubusercontent.com/mattjhayes/docs-python2readthedocs/master/docs/source/example_module.rst>`_
+  reStructuredText:
+    `example_module.rst <https://raw.githubusercontent.com/mattjhayes/docs-python2readthedocs/master/docs/source/example_module.rst>`_
 
-  `example_module.py <https://github.com/mattjhayes/docs-python2readthedocs/blob/master/docs-python2readthedocs/example_module.py>`_
+  Python:
+    `example_module.py <https://github.com/mattjhayes/docs-python2readthedocs/blob/master/docs-python2readthedocs/example_module.py>`_
 
-  `example_module.html <example_module.html>`_
+  Auto-generated HTML:
+    `example_module.html <example_module.html>`_
+
+Here are some additional directives that you may wish to add include:
+
+- Include private members, i.e. ones that start with an underscore
+
+  .. code-block:: text
+
+    :private-members:
+
+- Include special members, i.e. ones that start and end with two underscores,
+  such as __init__
+
+  .. code-block:: text
+
+   :special-members:
+
+Example using these extra directives:
+
+  reStructuredText:
+    `example_module2.rst <https://raw.githubusercontent.com/mattjhayes/docs-python2readthedocs/master/docs/source/example_module2.rst>`_
+
+  Python:
+    `example_module2.py <https://github.com/mattjhayes/docs-python2readthedocs/blob/master/docs-python2readthedocs/example_module2.py>`_
+
+  Auto-generated HTML:
+    `example_module2.html <example_module2.html>`_
+
+*****************************
+One-Off Creation of RST Files
+*****************************
 
 There is a script that you can run to create a directive file per Python
 module. You should only run this command once to set up the \*.rst files.

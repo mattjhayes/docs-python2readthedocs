@@ -5,3 +5,5 @@ example_module2 module
     :members:
     :undoc-members:
     :show-inheritance:
+    :private-members:
+    :special-members:
