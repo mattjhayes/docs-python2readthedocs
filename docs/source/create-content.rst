@@ -49,7 +49,7 @@ Example:
 
 **H2**
 
-A row of *'s above and below the line of text.
+A row of \*'s above and below the line of text.
 Example:
 
 .. code-block:: text

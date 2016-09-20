@@ -11,7 +11,7 @@ Sign up with Read the Docs
 
 Sign up for a Read the Docs account at:
 
-`<https://readthedocs.org/`_
+`<https://readthedocs.org/>`_
 
 Set up Webhook on GitHub
 ========================
