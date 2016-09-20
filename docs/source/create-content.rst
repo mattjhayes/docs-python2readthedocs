@@ -5,12 +5,25 @@ Create Content
 You can, and should, create some documentation about your project in
 addition to the auto-generated module documentation.
 
-Here are some basic pointers on how to create documentation pages in
-reStructuredText.
+******************
+Updating the Index
+******************
+
+The file docs/source/index.rst is the landing page for your projects
+documentation.
+
+Initially it will look like this:
+
+TBD
+
+
 
 ****************************
 reStructuredText Conventions
 ****************************
+
+Here are some basic pointers on how to create documentation pages in
+reStructuredText.
 
 Line length
 ===========
@@ -36,7 +49,7 @@ Example:
 
 **H2**
 
-A row of *'s above and below the line of text.
+A row of \*'s above and below the line of text.
 Example:
 
 .. code-block:: text
@@ -102,6 +115,9 @@ Use this directive for text such as command line input and output
   .. code-block:: text
 
     code here...
+
+Python
+------
 
 Use this directive for Python (note 2 space indent for the code):
 

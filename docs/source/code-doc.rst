@@ -2,8 +2,9 @@
 Autodoc Your Code
 #################
 
-The Sphinx autodoc extension (see:
-`<http://www.sphinx-doc.org/en/stable/ext/autodoc.html>'_ ) converts docstrings
+The Sphinx autodoc extension
+(see `<http://www.sphinx-doc.org/en/stable/ext/autodoc.html>`_ )
+converts docstrings
 from your code into the final documentation format at Sphinx build-time.
 
 This is very useful, but may not work out of the box.
@@ -46,13 +47,16 @@ the documentation from particular Python modules in your project. Example:
       :undoc-members:
       :show-inheritance:
 
-(`Source <https://raw.githubusercontent.com/mattjhayes/docs-python2readthedocs/master/docs/source/example_module.rst>`_ )
+Example from this project (reStructuredText, Python and auto-generated HTML):
 
-See `<example_module.html>`_ for an example of
-the html that this generates.
+  `example_module.rst <https://raw.githubusercontent.com/mattjhayes/docs-python2readthedocs/master/docs/source/example_module.rst>`_
+
+  `example_module.py <https://github.com/mattjhayes/docs-python2readthedocs/blob/master/docs-python2readthedocs/example_module.py>`_
+
+  `example_module.html <example_module.html>`_
 
 There is a script that you can run to create a directive file per Python
-module. You should only run this command once to set up the *.rst files.
+module. You should only run this command once to set up the \*.rst files.
 
 In the docs directory, run this command to create rst files that document
 your python modules (Note that the -f option tells it to overwrite existing

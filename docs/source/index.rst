@@ -23,6 +23,7 @@ Contents:
    ui-tweaks
    readthedocs
    modules
+   troubleshooting
    acknowledgements
 
 Indices and tables
