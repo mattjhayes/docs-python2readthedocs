@@ -5,9 +5,10 @@ Autodoc Your Code
 The Sphinx autodoc extension
 (see `<http://www.sphinx-doc.org/en/stable/ext/autodoc.html>`_ )
 converts docstrings
-from your code into the final documentation format at Sphinx build-time.
+from your Python code into the final documentation format at Sphinx build-time.
 
-This is very useful, but may not work out of the box.
+This is very useful, but may not work out of the box. Here are some steps
+to set it up properly:
 
 **********************************
 Tell autodoc how to Find your Code
@@ -54,6 +55,31 @@ Example from this project (reStructuredText, Python and auto-generated HTML):
   `example_module.py <https://github.com/mattjhayes/docs-python2readthedocs/blob/master/docs-python2readthedocs/example_module.py>`_
 
   `example_module.html <example_module.html>`_
+
+Here are some additional directives that you may wish to add include:
+
+- Include private members, i.e. ones that start with an underscore
+  .. code-block:: text
+
+    :private-members:
+
+- Include special members, i.e. ones that start and end with two underscores,
+  such as __init__
+  .. code-block:: text
+
+   :special-members:
+
+Example from this project of using these extra directives:
+
+  `example_module2.rst <https://raw.githubusercontent.com/mattjhayes/docs-python2readthedocs/master/docs/source/example_module2.rst>`_
+
+  `example_module.py <https://github.com/mattjhayes/docs-python2readthedocs/blob/master/docs-python2readthedocs/example_module2.py>`_
+
+  `example_module.html <example_module2.html>`_
+
+*****************************
+One-Off Creation of RST Files
+*****************************
 
 There is a script that you can run to create a directive file per Python
 module. You should only run this command once to set up the \*.rst files.
