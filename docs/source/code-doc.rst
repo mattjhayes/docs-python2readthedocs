@@ -27,16 +27,16 @@ Uncomment and edit this line (adjust path as appropriate):
 
   sys.path.insert(0, os.path.abspath('../../<PROJECT_NAME>'))
 
-********************************
-reStructuredText file directives
-********************************
+******************
+autodoc directives
+******************
 
-The reStructuredText files in your docs/source directory do not contain
-the docstrings. Instead they just contain directives on how to build the
-resulting page.
+The reStructuredText files for your Python modules in docs/source do not
+contain the docstrings. Instead they just contain directives on how to build
+the corresponding page.
 
-You need reStructuredText files with directives to build
-the documentation from particular Python modules in your project. Example:
+They contain reStructuredText with directives to build
+the documentation from a particular Python module in your project. Example:
 
 .. code-block:: text
 
@@ -48,12 +48,15 @@ the documentation from particular Python modules in your project. Example:
       :undoc-members:
       :show-inheritance:
 
-Example from this project (reStructuredText, Python and auto-generated HTML):
+Example from this project, showing source RST and Python with resulting HTML:
 
+  reStructuredText:
   `example_module.rst <https://raw.githubusercontent.com/mattjhayes/docs-python2readthedocs/master/docs/source/example_module.rst>`_
 
+  Python:
   `example_module.py <https://github.com/mattjhayes/docs-python2readthedocs/blob/master/docs-python2readthedocs/example_module.py>`_
 
+  Auto-generated HTML:
   `example_module.html <example_module.html>`_
 
 Here are some additional directives that you may wish to add include:
