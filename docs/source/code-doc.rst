@@ -73,9 +73,9 @@ Example from this project of using these extra directives:
 
   `example_module2.rst <https://raw.githubusercontent.com/mattjhayes/docs-python2readthedocs/master/docs/source/example_module2.rst>`_
 
-  `example_module.py <https://github.com/mattjhayes/docs-python2readthedocs/blob/master/docs-python2readthedocs/example_module2.py>`_
+  `example_module2.py <https://github.com/mattjhayes/docs-python2readthedocs/blob/master/docs-python2readthedocs/example_module2.py>`_
 
-  `example_module.html <example_module2.html>`_
+  `example_module2.html <example_module2.html>`_
 
 *****************************
 One-Off Creation of RST Files
