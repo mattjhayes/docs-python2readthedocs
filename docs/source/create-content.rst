@@ -12,11 +12,28 @@ Updating the Index
 The file docs/source/index.rst is the landing page for your projects
 documentation.
 
-Initially it will look like this:
+Initially it will look something like this:
 
-TBD
+.. code-block:: text
 
+  Welcome to <PROJECT_NAME>'s documentation!
+  =======================================================
 
+  Contents:
+
+  .. toctree::
+     :maxdepth: 2
+
+  Indices and tables
+  ==================
+
+  * :ref:`genindex`
+  * :ref:`modindex`
+  * :ref:`search`
+
+Add the names of your additional RST files one line below the
+':maxdepth: 2', being sure to preserve the 3-space indent.
+`Example <https://raw.githubusercontent.com/mattjhayes/docs-python2readthedocs/master/docs/source/index.rst>`_
 
 ****************************
 reStructuredText Conventions
