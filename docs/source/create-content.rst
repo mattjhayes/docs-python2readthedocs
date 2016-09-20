@@ -31,8 +31,8 @@ Initially it will look something like this:
   * :ref:`modindex`
   * :ref:`search`
 
-Add the names of your additional RST files one line below the
-':maxdepth: 2', being sure to preserve the 3-space indent.
+Add the names of your additional RST files, without file extension, one line
+below the ':maxdepth: 2'. Be sure to preserve the 3-space indent. See:
 `Example <https://raw.githubusercontent.com/mattjhayes/docs-python2readthedocs/master/docs/source/index.rst>`_
 
 ****************************

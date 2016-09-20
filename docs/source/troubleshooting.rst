@@ -2,9 +2,9 @@
 Troubleshooting
 ###############
 
-*******************
-Static Page Problem
-*******************
+********************
+Static Page Problems
+********************
 
 My page isnt' showing up in the contents menu
 =============================================
@@ -39,9 +39,12 @@ Or run it against all reStructuredText files in a directory:
 
 The reStructuredText is good if no results are returned.
 
-**********************************
+****************
+Autodoc Problems
+****************
+
 Module files missing or incomplete
-**********************************
+==================================
 
 Check Read the Docs to see if there has been an import problem as per
 `example-of-import-problem <readthedocs.html#example-of-import-problem>`_

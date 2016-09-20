@@ -59,12 +59,14 @@ Example from this project (reStructuredText, Python and auto-generated HTML):
 Here are some additional directives that you may wish to add include:
 
 - Include private members, i.e. ones that start with an underscore
+
   .. code-block:: text
 
     :private-members:
 
 - Include special members, i.e. ones that start and end with two underscores,
   such as __init__
+
   .. code-block:: text
 
    :special-members:
