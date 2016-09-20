@@ -116,6 +116,9 @@ Use this directive for text such as command line input and output
 
     code here...
 
+Python
+------
+
 Use this directive for Python (note 2 space indent for the code):
 
 .. code-block:: text
