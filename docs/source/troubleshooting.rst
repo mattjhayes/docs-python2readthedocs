@@ -6,12 +6,18 @@ Troubleshooting
 Static Page Problem
 *******************
 
-If a page isn't displaying in the contents then check that it is correctly
-listed in the index.rst file (check indent!).
+My page isnt' showing up in the contents menu
+=============================================
 
-If a static page (i.e. not one that auto-generates content) is missing or
-displaying incorrectly then start by checking the source
-reStructuredText file for issues.
+If a page isn't displaying in the contents then check that it is correctly
+listed in the index.rst file (check indent!)
+`example <https://raw.githubusercontent.com/mattjhayes/docs-python2readthedocs/master/docs/source/index.rst>`_
+.
+
+My page doesn't load / display correctly
+========================================
+
+Check the source reStructuredText file for issues with rstcheck.
 
 Install rstcheck (if you don't already have it) to check syntax of rst code:
 
@@ -29,7 +35,7 @@ Or run it against all reStructuredText files in a directory:
 
 .. code-block:: text
 
-  rstcheck <file>
+  rstcheck *.rst
 
 The reStructuredText is good if no results are returned.
 
