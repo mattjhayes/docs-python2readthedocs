@@ -81,7 +81,9 @@ Click 'Submit'
 Create a requirements.txt file
 ------------------------------
 
-Create requirements.txt file in root of project. Here is an example
+Create requirements.txt file (
+`example <https://github.com/mattjhayes/docs-python2readthedocs/blob/master/requirements.txt>`_ )
+in root of project. Here is an example
 requirements.txt file to install the coloredlogs library:
 
 .. code-block:: text

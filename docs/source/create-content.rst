@@ -2,8 +2,11 @@
 Create Content
 ##############
 
-You can, and should, create some documentation about your project in
-addition to the auto-generated module documentation.
+You should consider creating project documentation in
+addition to the auto-generated module documentation. While, it's good surfacing
+your docstrings as nicely formatted pages, you should still have some
+general pages that introduce your project and add extra context such
+as diagrams.
 
 ******************
 Updating the Index
