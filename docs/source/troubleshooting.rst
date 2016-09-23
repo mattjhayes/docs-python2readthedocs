@@ -6,16 +6,18 @@ Troubleshooting
 Static Page Problems
 ********************
 
-My page isnt' showing up in the contents menu
-=============================================
+Why isn't my page showing up in the contents menu?
+==================================================
 
-If a page isn't displaying in the contents then check that it is correctly
+Check that you page is correctly
 listed in the index.rst file (check indent!)
 `example <https://raw.githubusercontent.com/mattjhayes/docs-python2readthedocs/master/docs/source/index.rst>`_
 .
 
-My page doesn't load / display correctly
-========================================
+Check that you're looking at the right branch in Read the Docs
+
+Why isn't my page loading / display correctly?
+==============================================
 
 Check the source reStructuredText file for issues with rstcheck.
 
