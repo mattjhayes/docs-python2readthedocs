@@ -19,6 +19,7 @@ Contents:
    configure-sphinx
    code-doc
    create-content
+   restructuretext
    localbuild
    ui-tweaks
    readthedocs

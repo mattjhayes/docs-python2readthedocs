@@ -13,6 +13,7 @@ to set it up properly:
 **********************************
 Tell autodoc how to Find your Code
 **********************************
+
 Autodoc probably can't find your code without a little help. Edit the
 docs/source/conf.py file. Uncomment:
 
@@ -26,6 +27,15 @@ Uncomment and edit this line (adjust path as appropriate):
 .. code-block:: python
 
   sys.path.insert(0, os.path.abspath('../../<PROJECT_NAME>'))
+
+Submodules
+==========
+
+If you have submodules, then you may need to use this path instead:
+
+.. code-block:: python
+
+  sys.path.insert(0, os.path.abspath('../..'))
 
 *****************************
 One-Off Creation of RST Files
