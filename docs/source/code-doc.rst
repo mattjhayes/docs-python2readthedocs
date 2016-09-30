@@ -13,6 +13,7 @@ to set it up properly:
 **********************************
 Tell autodoc how to Find your Code
 **********************************
+
 Autodoc probably can't find your code without a little help. Edit the
 docs/source/conf.py file. Uncomment:
 
@@ -26,6 +27,32 @@ Uncomment and edit this line (adjust path as appropriate):
 .. code-block:: python
 
   sys.path.insert(0, os.path.abspath('../../<PROJECT_NAME>'))
+
+Submodules
+==========
+
+If you have submodules, then you may need to use this path instead:
+
+.. code-block:: python
+
+  sys.path.insert(0, os.path.abspath('../..'))
+
+*****************************
+One-Off Creation of RST Files
+*****************************
+
+There is a script that you can run to create a directive file per Python
+module. You should only run this command once to set up the \*.rst files.
+
+In the docs directory, run this command to create rst files that document
+your python modules (Note that the -f option tells it to overwrite existing
+files):
+
+.. code-block:: text
+
+  sphinx-apidoc -f -o source/ ../<PROJECT_NAME>/
+
+You should see rst files created in the docs/source/ folder
 
 ******************
 autodoc directives
@@ -84,23 +111,6 @@ Example using these extra directives:
 
   Auto-generated HTML:
     `example_module2.html <example_module2.html>`_
-
-*****************************
-One-Off Creation of RST Files
-*****************************
-
-There is a script that you can run to create a directive file per Python
-module. You should only run this command once to set up the \*.rst files.
-
-In the docs directory, run this command to create rst files that document
-your python modules (Note that the -f option tells it to overwrite existing
-files):
-
-.. code-block:: text
-
-  sphinx-apidoc -f -o source/ ../<PROJECT_NAME>/
-
-You should see rst files created in the docs/source/ folder
 
 *********************
 Documenting Your Code

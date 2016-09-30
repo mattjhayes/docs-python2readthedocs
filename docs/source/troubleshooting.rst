@@ -51,4 +51,7 @@ Module files missing or incomplete
 Check Read the Docs to see if there has been an import problem as per
 `example-of-import-problem <readthedocs.html#example-of-import-problem>`_
 
+If your code has submodules (i.e. code is in more than one level of directory)
+then you may need to
+`alter your path statement <code-doc.html#submodules>`_.
 
