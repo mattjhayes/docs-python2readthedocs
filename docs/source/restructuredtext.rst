@@ -87,6 +87,51 @@ Example:
   Heading Level 6
   """""""""""""""
 
+*****
+Lists
+*****
+
+Lists must always be preceded by a blank line.
+
+Numbered Lists
+==============
+
+Numbered lists are numbers or letters followed by ".", right bracket ")"
+or surrounded by brackets "( )" 
+
+.. code-block:: text
+
+  This is a numbered list:
+  
+  1) Item 1
+  2) Item 2
+  
+Displays as:
+
+This is a numbered list:
+  
+1) Item 1
+2) Item 2
+
+Bullet Points
+=============
+
+Bullet point lines start with "-", "+" or "*"
+
+.. code-block:: text
+
+  This is a bullet point list:
+  
+  * Item 1
+  * Item 2
+
+Displays as:
+
+This is a bullet point list:
+
+* Item 1
+* Item 2
+
 ***********
 Code Blocks
 ***********
