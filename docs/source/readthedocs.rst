@@ -19,6 +19,7 @@ Set up Service on GitHub
 Go into the admin page for the project on GitHub.
 
 Go to the “Settings” page for your project
+
 * Click “Integrations & services” on the left
 * In the “Services” section, click “Add service”
 
@@ -40,6 +41,12 @@ Log into Read the Docs and click 'Import a Project'.
 If the project is not in the list, choose to import it manually:
 
 .. image:: images/rtd_import_2.png
+
+In GitHub, copy the HTTPS clone URL to clipboard:
+
+.. image:: images/github_https.png
+
+Back in Read the Docs, paste the URL into the 'Repository URL field' and fill in the project name: 
 
 .. image:: images/rtd_import_3.png
 
