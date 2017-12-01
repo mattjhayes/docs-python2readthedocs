@@ -18,15 +18,15 @@ Create Integration in Read the Docs
 
 Go into Admin -> Integrations and click 'Add integration'
 
-.. image:: rtd_integrations_1.png
+.. image:: images/rtd_integrations_1.png
 
 Select Integration type as 'GitHub incoming webhook' then click 'Add integration'
 
-.. image:: rtd_integrations_2.png
+.. image:: images/rtd_integrations_2.png
 
 Copy the Webhook URL to clipboard
 
-.. image:: rtd_integrations_3.png
+.. image:: images/rtd_integrations_3.png
 
 Set up Service on GitHub
 ========================
@@ -52,7 +52,7 @@ Import Project in Read the Docs
 
 Log into Read the Docs and click 'Import a Project'.
 
-.. image:: images/rtd_import_1.png
+  .. image:: images/rtd_import_1.png
 
 If the project is not in the list, choose to import it manually:
 

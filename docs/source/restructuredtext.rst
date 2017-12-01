@@ -93,9 +93,9 @@ Example:
   Heading Level 6
   """""""""""""""
 
-**********
-Formatting
-**********
+***************
+Text Formatting
+***************
 
 Italics
 =======
