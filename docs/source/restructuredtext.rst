@@ -24,7 +24,9 @@ Headings
 
 Headings are:
 
-**H1**
+**
+H1
+**
 
 A row of #'s above and below the line of text.
 There should only one H1 in the document.
@@ -36,7 +38,9 @@ Example:
   Heading Level 1
   ###############
 
-**H2**
+**
+H2
+**
 
 A row of \*'s above and below the line of text.
 Example:
@@ -47,7 +51,9 @@ Example:
   Heading Level 2
   ***************
 
-**H3**
+**
+H3
+**
 
 A row of ='s below the line of text.
 Example:
@@ -57,7 +63,9 @@ Example:
   Heading Level 3
   ===============
 
-**H4**
+**
+H4
+**
 
 A row of -'s below the line of text.
 Example:
@@ -67,7 +75,9 @@ Example:
   Heading Level 4
   ---------------
 
-**H5**
+**
+H5
+**
 
 A row of ^'s below the line of text.
 Example:
@@ -77,7 +87,9 @@ Example:
   Heading Level 5
   ^^^^^^^^^^^^^^^
 
-**H6**
+**
+H6
+**
 
 A row of "'s below the line of text.
 Example:
@@ -86,6 +98,37 @@ Example:
 
   Heading Level 6
   """""""""""""""
+
+**********
+Formatting
+**********
+
+Italics
+=======
+
+Surround word(s) with single *asterisks*:
+
+.. code-block:: text
+
+  *italics*
+
+bold
+====
+
+Surround word(s) with double **asterisks**:
+
+.. code-block:: text
+
+  **bold**
+
+literal
+=======
+
+Surroud word(s) with double backticks:
+
+.. code-block:: text
+
+  ``double back-quotes``
 
 *****
 Lists
