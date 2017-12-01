@@ -13,6 +13,21 @@ Sign up for a Read the Docs account at:
 
 `<https://readthedocs.org/>`_
 
+Create Integration in Read the Docs
+===================================
+
+Go into Admin -> Integrations and click 'Add integration'
+
+  .. image:: images/rtd_integrations_1.png
+
+Select Integration type as 'GitHub incoming webhook' then click 'Add integration'
+
+  .. image:: images/rtd_integrations_2.png
+
+Copy the Webhook URL to clipboard
+
+  .. image:: images/rtd_integrations_3.png
+
 Set up Service on GitHub
 ========================
 
@@ -23,32 +38,46 @@ Go to the “Settings” page for your project
 * Click “Integrations & services” on the left
 * In the “Services” section, click “Add service”
 
-.. image:: images/github_integration_settings_1.png
+  .. image:: images/github_integration_settings_1.png
 
 * In the list of available services, click “ReadTheDocs”
 * Check “Active”
 * Click “Add service”
 
-.. image:: images/github_integration_settings_2.png
+  .. image:: images/github_integration_settings_2.png
+
 
 Import Project in Read the Docs
 ===============================
 
 Log into Read the Docs and click 'Import a Project'.
 
-.. image:: images/rtd_import_1.png
+  .. image:: images/rtd_import_1.png
 
 If the project is not in the list, choose to import it manually:
 
-.. image:: images/rtd_import_2.png
+  .. image:: images/rtd_import_2.png
 
 In GitHub, copy the HTTPS clone URL to clipboard:
 
-.. image:: images/github_https.png
+  .. image:: images/github_https.png
 
 Back in Read the Docs, paste the URL into the 'Repository URL field' and fill in the project name: 
 
-.. image:: images/rtd_import_3.png
+  .. image:: images/rtd_import_3.png
+
+
+Check Read the Docs Versions
+============================
+
+Check Read the Docs versions are enabled appropriately for the repository.
+
+  .. image:: images/rtd_versions_1.png
+
+Enable where required:
+
+  .. image:: images/rtd_versions_2.png
+
 
 ********************************************
 Autodoc Fix for External Module Dependencies
@@ -68,11 +97,11 @@ We check the build and it passed. What is the problem?
 Clicking in Read the Docs admin interface on the 4th line of the build,
 we see:
 
-.. image:: images/build1.png
+  .. image:: images/build1.png
 
 and further down this output:
 
-.. image:: images/build2.png
+  .. image:: images/build2.png
 
 Right. It's failing because colouredlogs module isn't installed in Read the
 Docs.
