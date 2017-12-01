@@ -13,6 +13,21 @@ Sign up for a Read the Docs account at:
 
 `<https://readthedocs.org/>`_
 
+Create Integration in Read the Docs
+===================================
+
+Go into Admin -> Integrations and click 'Add integration'
+
+.. image:: rtd_integrations_1.png
+
+Select Integration type as 'GitHub incoming webhook' then click 'Add integration'
+
+.. image:: rtd_integrations_2.png
+
+Copy the Webhook URL to clipboard
+
+.. image:: rtd_integrations_3.png
+
 Set up Service on GitHub
 ========================
 
