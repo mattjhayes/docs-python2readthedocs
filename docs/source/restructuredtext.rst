@@ -130,7 +130,6 @@ Surroud word(s) with double backticks:
 
   ``double back-quotes``
 
-
 *****
 Lists
 *****
