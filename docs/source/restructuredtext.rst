@@ -24,9 +24,8 @@ Headings
 
 Headings are:
 
-**
 H1
-**
+==
 
 A row of #'s above and below the line of text.
 There should only one H1 in the document.
@@ -38,9 +37,8 @@ Example:
   Heading Level 1
   ###############
 
-**
 H2
-**
+==
 
 A row of \*'s above and below the line of text.
 Example:
@@ -51,9 +49,8 @@ Example:
   Heading Level 2
   ***************
 
-**
 H3
-**
+==
 
 A row of ='s below the line of text.
 Example:
@@ -63,9 +60,8 @@ Example:
   Heading Level 3
   ===============
 
-**
 H4
-**
+==
 
 A row of -'s below the line of text.
 Example:
@@ -75,9 +71,8 @@ Example:
   Heading Level 4
   ---------------
 
-**
 H5
-**
+==
 
 A row of ^'s below the line of text.
 Example:
@@ -87,9 +82,8 @@ Example:
   Heading Level 5
   ^^^^^^^^^^^^^^^
 
-**
 H6
-**
+==
 
 A row of "'s below the line of text.
 Example:

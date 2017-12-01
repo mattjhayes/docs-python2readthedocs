@@ -46,6 +46,7 @@ Go to the “Settings” page for your project
 
 .. image:: images/github_integration_settings_2.png
 
+
 Import Project in Read the Docs
 ===============================
 
@@ -64,6 +65,19 @@ In GitHub, copy the HTTPS clone URL to clipboard:
 Back in Read the Docs, paste the URL into the 'Repository URL field' and fill in the project name: 
 
 .. image:: images/rtd_import_3.png
+
+
+Check Read the Docs Versions
+============================
+
+Check Read the Docs versions are enabled appropriately for the repository.
+
+.. image:: images/rtd_versions_1.png
+
+Enable where required:
+
+.. image:: images/rtd_versions_2.png
+
 
 ********************************************
 Autodoc Fix for External Module Dependencies
