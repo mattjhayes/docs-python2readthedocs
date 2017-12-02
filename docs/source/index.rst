@@ -12,20 +12,20 @@ to create great hassle-free documentation. `Read More <introduction.html>`_
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
-   introduction
-   install-sphinx
-   configure-sphinx
-   code-doc
-   create-content
-   restructuredtext
-   localbuild
-   ui-tweaks
-   readthedocs
+   userguide/introduction
+   userguide/install-sphinx
+   userguide/configure-sphinx
+   userguide/code-doc
+   userguide/create-content
+   userguide/restructuredtext
+   userguide/localbuild
+   userguide/ui-tweaks
+   userguide/readthedocs
    modules
-   troubleshooting
-   acknowledgements
+   userguide/troubleshooting
+   userguide/acknowledgements
 
 Indices and tables
 ==================

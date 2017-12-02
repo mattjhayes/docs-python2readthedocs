@@ -34,6 +34,20 @@ Initially it will look something like this:
   * :ref:`modindex`
   * :ref:`search`
 
+The rst files for autodoc are in the docs/source directory so it is a good
+idea for reasons of tidiness and to avoid name collisions to create a
+subdirectory for your content.
+
+In this example, there is a subdirectory called *userguide*
+
 Add the names of your additional RST files, without file extension, one line
-below the ':maxdepth: 2'. Be sure to preserve the 3-space indent. See:
+below the ':maxdepth: 2'. Prefix with the subdirectory if using, example:
+
+.. code-block:: text
+
+      userguide/introduction
+
+Be sure to preserve the 3-space indent.
+
+See:
 `Example <https://raw.githubusercontent.com/mattjhayes/docs-python2readthedocs/master/docs/source/index.rst>`_

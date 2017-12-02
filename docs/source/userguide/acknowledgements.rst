@@ -15,5 +15,5 @@ This guide was drawn from many sources, including:
 Any mistakes are mine, not theirs.
 
 If you have any corrections or updates, please comment on my blog post
-`Automating Python Documentation with Read the Docs <http://bitsn1000bits.blogspot.co.nz/2016/09/automating-python-documentation-with.html>`_
+`Automating Python Documentation with Read the Docs <https://bitsn1000bits.wordpress.com/2017/07/14/automating-python-documentation-with-read-the-docs/>`_
 
